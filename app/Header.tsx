@@ -1,6 +1,6 @@
 import React from "react";
 import Image from "next/image";
-import logo from "../image/meta.png";
+import logo from "../image/logo.png";
 import Link from "next/link";
 
 const Header = () => {
@@ -10,7 +10,7 @@ const Header = () => {
         <div className=" flex space-x-2 items-center">
           <Image src={logo} width={50} height={10} alt="logo" />
 
-          <p className="text-blue-400">welcome to Meta Messenger</p>
+          <p className="text-blue-400">welcome to Messenger</p>
         </div>
         <Link
           href={"/auth/signIn"}
